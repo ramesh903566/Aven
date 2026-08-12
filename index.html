@@ -935,7 +935,7 @@
   <main id="main-content" class="main">
         <section class="scene hero" id="work" aria-labelledby="hero-title" style="position: relative; z-index: 2; display: flex; flex-direction: column; justify-content: center; overflow: hidden;">
       <div class="scene-inner hero-copy" style="max-width: 100%; z-index: 2; position: relative;">
-        <h1 class="hero-title reveal" id="hero-title" style="font-family: 'Asgrike', Outfit, sans-serif; font-weight: 800; font-size: clamp(5rem, 18vw, 14rem); text-transform: uppercase; line-height: 0.85; margin: -10vh 0 1rem -2vw; letter-spacing: -0.04em; max-width: none;">
+        <h1 class="hero-title reveal" id="hero-title" style="font-family: 'Asgrike', Outfit, sans-serif; font-weight: 800; font-size: clamp(5rem, 18vw, 14rem); text-transform: uppercase; line-height: 0.85; margin: 0 0 1rem 0; letter-spacing: -0.04em; max-width: none;">
           <span style="color: var(--paper);">BU</span><span style="color: #666666;">NNY</span>
         </h1>
         
@@ -1352,9 +1352,9 @@
         </p>
         
         <div class="contact-links reveal" style="display: flex; flex-wrap: wrap; gap: 1rem; align-items: center; justify-content: flex-start;">
-          <div class="email-container magnetic" style="display: inline-flex; align-items: center; border: 1px solid rgba(255,255,255,0.1); padding: 1rem 2rem; color: var(--paper); font-family: 'Space Mono', monospace; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.1em; transition: all 0.3s ease;">
-            <span id="email-trigger" style="cursor: pointer;">EMAIL —</span>
-            <span id="email-text" style="display: none; color: var(--accent); margin-left: 1rem; padding-left: 1rem; border-left: 1px solid rgba(255,255,255,0.1); text-transform: lowercase;">rameshmalipatil@gmail.com</span>
+          <div class="email-container" style="display: inline-flex; align-items: center; border: 1px solid rgba(255,255,255,0.1); padding: 1rem 2rem; color: var(--paper); font-family: 'Space Mono', monospace; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.1em; transition: all 0.3s ease;">
+            <span id="email-trigger" style="cursor: pointer;">EMAIL</span>
+            <span id="email-text" style="display: none; color: var(--accent); margin-left: 1rem; padding-left: 1rem; border-left: 1px solid rgba(255,255,255,0.1); text-transform: lowercase;">veritycodex@gmail.com</span>
             <button id="copy-btn" style="display: none; background: transparent; border: none; cursor: pointer; color: var(--muted); margin-left: 0.5rem; align-items: center; justify-content: center;" title="Copy to clipboard">
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="transition: stroke 0.3s ease;">
                 <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
@@ -1362,8 +1362,8 @@
               </svg>
             </button>
           </div>
-          <a href="https://github.com/ramesh903566" class="contact-link magnetic" target="_blank" rel="noopener noreferrer" style="border: 1px solid rgba(255,255,255,0.1); padding: 1rem 2rem; color: var(--paper); text-decoration: none; font-family: 'Space Mono', monospace; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.1em; transition: all 0.3s ease;">GitHub —</a>
-          <a href="https://linkedin.com/in/ramesh988025" class="contact-link magnetic" target="_blank" rel="noopener noreferrer" style="border: 1px solid rgba(255,255,255,0.1); padding: 1rem 2rem; color: var(--paper); text-decoration: none; font-family: 'Space Mono', monospace; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.1em; transition: all 0.3s ease;">LinkedIn —</a>
+          <a href="https://github.com/ramesh903566" class="contact-link" target="_blank" rel="noopener noreferrer" style="border: 1px solid rgba(255,255,255,0.1); padding: 1rem 2rem; color: var(--paper); text-decoration: none; font-family: 'Space Mono', monospace; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.1em; transition: all 0.3s ease;">GitHub</a>
+          <a href="https://linkedin.com/in/ramesh988025" class="contact-link" target="_blank" rel="noopener noreferrer" style="border: 1px solid rgba(255,255,255,0.1); padding: 1rem 2rem; color: var(--paper); text-decoration: none; font-family: 'Space Mono', monospace; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.1em; transition: all 0.3s ease;">LinkedIn</a>
         </div>
       </div>
     </section>
@@ -1576,7 +1576,7 @@
             });
             
             copyBtn.addEventListener('click', () => {
-              navigator.clipboard.writeText('rameshmalipatil@gmail.com').then(() => {
+              navigator.clipboard.writeText('veritycodex@gmail.com').then(() => {
                 const svg = copyBtn.querySelector('svg');
                 svg.innerHTML = '<path d="M20 6L9 17l-5-5" stroke-dasharray="24" stroke-dashoffset="24"><animate attributeName="stroke-dashoffset" from="24" to="0" dur="0.3s" fill="freeze" /></path>';
                 svg.style.stroke = 'var(--accent)';
