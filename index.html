@@ -3,16 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-  <title>Ramesh - Cybersecurity Engineer & Software Developer</title>
+  <title>Aven - Cybersecurity Engineer & Software Developer</title>
   <meta name="description" content="Computer Science student building secure software, exploring application security, cloud security, DevSecOps, and cybersecurity engineering through real-world projects.">
   <meta name="theme-color" content="#0a0a08">
-  <link rel="canonical" href="https://ramesh.dev">
-  <meta property="og:title" content="Ramesh - Cybersecurity Engineer & Software Developer">
+  <link rel="canonical" href="https://aven.dev">
+  <meta property="og:title" content="Aven - Cybersecurity Engineer & Software Developer">
   <meta property="og:description" content="Computer Science student building secure software, exploring application security, cloud security, DevSecOps, and cybersecurity engineering through real-world projects.">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://ramesh.dev">
+  <meta property="og:url" content="https://aven.dev">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Ramesh - Cybersecurity Engineer & Software Developer">
+  <meta name="twitter:title" content="Aven - Cybersecurity Engineer & Software Developer">
   <meta name="twitter:description" content="Computer Science student building secure software, exploring application security, cloud security, DevSecOps, and cybersecurity engineering through real-world projects.">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
@@ -888,6 +888,29 @@
       }
     }
 
+    @media (max-width: 900px) {
+      .project-viewer { grid-template-columns: 1fr !important; }
+      .project-tabs { flex-direction: row !important; overflow-x: auto; padding-bottom: 1rem; scrollbar-width: none; }
+      .project-tabs::-webkit-scrollbar { display: none; }
+      .project-tab { min-width: 240px; padding: 1.25rem !important; }
+      .tech-grid { justify-content: center; gap: 1rem !important; }
+      .tech-circle { width: 110px !important; height: 110px !important; font-size: 0.75rem !important; }
+      .tech-detail { flex-direction: column; align-items: flex-start !important; gap: 0.75rem; padding: 1.25rem !important; }
+      .roadmap-card { padding: 2.5rem 1.5rem !important; min-height: 300px !important; }
+      .hero-title { font-size: clamp(3.5rem, 15vw, 6rem) !important; max-width: 100% !important; }
+      .hero-copy > div { margin-left: 0 !important; margin-top: 3vh !important; }
+      .contact-links { justify-content: center !important; }
+    }
+    
+    @media (max-width: 560px) {
+      .project-content-area { padding: 1.25rem !important; min-height: 400px !important; }
+      .project-tab { min-width: 200px; padding: 1rem !important; }
+      .email-container { width: 100%; justify-content: space-between !important; padding: 1rem !important; }
+      .email-container span#email-text { font-size: 0.7rem; margin-left: 0.5rem !important; padding-left: 0.5rem !important; word-break: break-all; }
+      .tech-circle { width: 95px !important; height: 95px !important; font-size: 0.65rem !important; }
+      .hero-title { font-size: clamp(3.2rem, 12vw, 4rem) !important; }
+    }
+
     @media (prefers-reduced-motion: reduce) {
       *,
       *::before,
@@ -1370,7 +1393,7 @@
 
 
   <footer class="site-footer" style="padding: 2rem 0; text-align: center; border-top: 1px solid rgba(255,255,255,0.05); margin-top: 4rem;">
-    <p style="color: var(--dim); font-family: 'Space Mono', monospace; font-size: 0.75rem; letter-spacing: 0.1em; text-transform: uppercase; margin: 0;">&copy; 2026 RAMESH. BUILT WITH INTENTION.</p>
+    <p style="color: var(--dim); font-family: 'Space Mono', monospace; font-size: 0.75rem; letter-spacing: 0.1em; text-transform: uppercase; margin: 0;">&copy; 2026 AVEN. BUILT WITH INTENTION.</p>
   </footer>
 
 
