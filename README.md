@@ -15,6 +15,7 @@
     <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="JavaScript" />
     <img src="https://img.shields.io/badge/GSAP-88CE02?style=for-the-badge&logo=greensock&logoColor=white" alt="GSAP" />
     <a href="https://portfolio-eta-inky-21.vercel.app" target="_blank">
+      <br>
   <img src="https://img.shields.io/badge/VIEW_MY_PORTFOLIO-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="View My Portfolio"/>
 </a>
   </p>
